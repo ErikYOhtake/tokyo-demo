@@ -1,0 +1,17 @@
+{
+  "name": "ilp-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "launch.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ilp-packet": "^2.2.0",
+    "ilp-plugin-btp": "^1.1.9",
+    "ilp-protocol-ildcp": "^1.0.0",
+    "oer-utils": "^2.0.0"
+  }
+}
