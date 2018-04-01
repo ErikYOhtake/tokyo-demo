@@ -1,17 +1,21 @@
 {
   "name": "ilp-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "Interledger User Group Tokyo 2018-03-29 Mini Hackathon Project",
   "main": "launch.config.js",
+  "private": true,
   "scripts": {
+    "start": "pm2 start launch.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Stefan Thomas <justmoon@members.fsf.org>",
   "license": "ISC",
   "dependencies": {
+    "ilp-connector": "^21.2.3",
     "ilp-packet": "^2.2.0",
     "ilp-plugin-btp": "^1.1.9",
     "ilp-protocol-ildcp": "^1.0.0",
-    "oer-utils": "^2.0.0"
+    "oer-utils": "^2.0.0",
+    "pm2": "^2.10.2"
   }
 }

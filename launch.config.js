@@ -1,7 +1,7 @@
 const { resolve } = require('path')
 
 const basicConnector = {
-  script: resolve(__dirname, '../../interledgerjs/ilp-connector/src/index.js'),
+  script: resolve(__dirname, 'node_modules/ilp-connector/src/index.js'),
   env: {
     DEBUG: 'connector*,ilp*',
     CONNECTOR_STORE: 'memdown',
